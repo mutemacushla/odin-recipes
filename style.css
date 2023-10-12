@@ -1,0 +1,89 @@
+body.index-page{
+    background-color: burlywood;
+}
+
+#text-allign-1{
+    text-align: center;
+}
+
+#index-bkg-1 {
+    position: absolute;
+    top:0%;
+    left:0%;;
+}
+
+#index-bkg-2 {
+    position: absolute;
+    top:100%;
+    right:90%;
+}
+
+#index-bkg-3 {
+    position: absolute;
+    top:100%;
+    right:0%;
+    
+}
+
+#index-bkg-4 {
+    position: absolute;
+    top:0%;
+    right:0%;
+    
+}
+
+#index-ul{
+
+    display: table;
+    margin: 0 auto;
+    list-style: url(./images/bullet-list.png);
+    color:whitesmoke;
+    background-color: rgba(0, 0, 0, 0.486);
+    color:whitesmoke;
+}
+
+#index-ul a{
+    color: whitesmoke;
+    
+}
+
+.index-page #index-ul{
+    text-align: left;
+    font-size: 20px;
+    
+
+}
+
+.index-page h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.SAV-body {
+    background-image: url(./images/rick.jpeg);
+    
+}
+.SAV-body .NVG{
+    background-color: aliceblue;
+    width:fit-content;
+    
+}
+
+.pizza-body {
+    background-image: url(./images/hellmo-pizza.gif);
+
+}
+
+.pizza-body .NVG-pizza{
+    background-color: aliceblue;
+    width:fit-content;
+    
+}
+
+.idiot-body {
+    background-image: url(./images/gordon.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: azure;
+    
+}
